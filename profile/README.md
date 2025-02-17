@@ -1,6 +1,6 @@
 # Motion Synthesis For Biomedical Research
 
-This Bachelor’s thesis is being undertaken as part of the B.Sc. Data Science program at the University of Applied Sciences and Arts Northwestern Switzerland (Fachhochschule Nordwestschweiz).
+This Bachelor thesis is being undertaken as part of the B.Sc. Data Science program at the University of Applied Sciences and Arts Northwestern Switzerland (Fachhochschule Nordwestschweiz).
 
 ## Group
 This thesis is being worked on by the following students:
