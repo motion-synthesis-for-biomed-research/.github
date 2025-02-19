@@ -60,3 +60,23 @@ body:
       value: |
         - **Key Decisions**: 
         - **Action Items**: 
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+
+        ## 🚀 Next Steps
+        Outline the upcoming steps or follow-up tasks after the meeting.
+
+  - type: textarea
+    id: next-steps
+    attributes:
+      label: "🔜 Next Steps"
+      description: "Define what needs to happen next and assign responsibilities."
+      placeholder: |
+        - [ ] Step 1 - Assigned to @user
+        - [ ] Step 2 - Assigned to @user
+        - [ ] Step 3 - Assigned to @user
+      value: |
+        - 
