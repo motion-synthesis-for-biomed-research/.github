@@ -5,25 +5,21 @@ body:
     attributes:
       value: |
         # 📝 Pre-Meeting Information
-        Fill in this section before the meeting with relevant details such as the agenda, participants, and objectives.
+        Fill in this section before the meeting with relevant details such as date, time, location, and participants.
 
   - type: textarea
     id: meeting-info
     attributes:
       label: "📋 Meeting Information"
-      description: "Enter details such as date, time, location, agenda, and goals."
+      description: "Enter details such as date, time, and location."
       placeholder: |
         - **Date**: YYYY-MM-DD
         - **Time**: HH:MM
         - **Location**: Zoom/Office
-        - **Agenda**:
-          - Topic 1
-          - Topic 2
       value: |
         - **Date**: 
         - **Time**: 
         - **Location**: 
-        - **Agenda**: 
 
   - type: textarea
     id: attendees
@@ -36,6 +32,26 @@ body:
         - @username3
       value: |
         - 
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+
+        ## 📌 Agenda
+        Define key topics to be discussed in the meeting.
+
+  - type: textarea
+    id: agenda
+    attributes:
+      label: "📝 Agenda"
+      description: "List the topics that will be covered in the meeting."
+      placeholder: |
+        1. Topic 1
+        2. Topic 2
+        3. Topic 3
+      value: |
+        1. 
 
   - type: markdown
     attributes:
