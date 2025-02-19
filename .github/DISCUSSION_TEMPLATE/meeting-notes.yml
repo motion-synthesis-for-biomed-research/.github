@@ -1,0 +1,35 @@
+name: "Meeting Notes"
+description: "Template for meeting information and notes"
+title: "Meeting: <Topic>"
+labels:
+  - "meeting"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Pre-Meeting Information
+        Use this section to enter all relevant information before the meeting, 
+        such as the agenda, participants, goals, preparation steps, etc.
+
+  - type: textarea
+    id: meetingInfo
+    attributes:
+      label: "Meeting Information"
+      description: "Details before the meeting (agenda, topics, goals, etc.)"
+      placeholder: "Enter the agenda, participant list, and any pre-meeting details here."
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        
+        ## Meeting Notes
+        Use this section to document key points, decisions, and action items 
+        during or after the meeting.
+
+  - type: textarea
+    id: meetingNotes
+    attributes:
+      label: "Notes"
+      description: "Key points from the meeting (outcomes, action items, responsibilities, etc.)"
+      placeholder: "Document the most important points and next steps here."
