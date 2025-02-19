@@ -1,60 +1,11 @@
-title: "[Meeting] <Topic>"
-labels: ["meeting"]
-body:
-  - type: markdown
-    attributes:
-      value: |
-        # 📝 Pre-Meeting Information
-        Fill in this section before the meeting with relevant details such as the agenda, participants, and objectives.
-
+title: "[Meeting Notes] "
+body:  
   - type: textarea
-    id: meeting-info
     attributes:
-      label: "📋 Meeting Information"
-      description: "Enter details such as date, time, location, agenda, and goals."
-      placeholder: |
-        - **Date**: YYYY-MM-DD
-        - **Time**: HH:MM
-        - **Location**: Zoom/Office
-        - **Agenda**:
-          - Topic 1
-          - Topic 2
-      value: |
-        - **Date**: 
-        - **Time**: 
-        - **Location**: 
-        - **Agenda**: 
-
-  - type: markdown
-    attributes:
-      value: |
-        ---
-
-        ## 📌 Meeting Notes
-        Use this section to capture important decisions, action items, and responsibilities.
-
+      label: "The timeline:"
   - type: textarea
-    id: meeting-notes
     attributes:
-      label: "📖 Notes & Outcomes"
-      description: "Document key points, decisions, and action items."
-      placeholder: |
-        - **Key Decisions**:
-          - Decision 1
-          - Decision 2
-        - **Action Items**:
-          - [ ] Task 1 - Assigned to @user
-          - [ ] Task 2 - Assigned to @user
-      value: |
-        - **Key Decisions**: 
-        - **Action Items**: 
-
-  - type: checkboxes
-    id: follow-up
+      label: "What are the most important topics discussed?"
+  - type: textarea
     attributes:
-      label: "✅ Follow-up Actions"
-      description: "Mark items as completed after the meeting."
-      options:
-        - label: "Meeting notes reviewed"
-        - label: "Action items assigned"
-        - label: "Next meeting scheduled"
+      label: "What was decided?"
