@@ -1,35 +1,44 @@
 name: "Meeting Notes"
-description: "Template for meeting information and notes"
+about: "Record meeting details, agenda, and notes."
 title: "Meeting: <Topic>"
-labels:
-  - "meeting"
+labels: ["meeting"]
 body:
   - type: markdown
     attributes:
       value: |
-        ## Pre-Meeting Information
-        Use this section to enter all relevant information before the meeting, 
-        such as the agenda, participants, goals, preparation steps, etc.
+        ## 📝 Pre-Meeting Information
+        Fill in this section before the meeting with relevant details such as the agenda, participants, and objectives.
 
   - type: textarea
     id: meetingInfo
     attributes:
-      label: "Meeting Information"
-      description: "Details before the meeting (agenda, topics, goals, etc.)"
-      placeholder: "Enter the agenda, participant list, and any pre-meeting details here."
+      label: "📋 Meeting Information"
+      description: "Enter details such as agenda, participants, and goals."
+      placeholder: "Example: \n- **Date**: YYYY-MM-DD \n- **Time**: HH:MM \n- **Location**: Zoom/Office \n- **Agenda**: \n  - Topic 1\n  - Topic 2"
+      value: "- **Date**: \n- **Time**: \n- **Location**: \n- **Agenda**: "
 
   - type: markdown
     attributes:
       value: |
         ---
         
-        ## Meeting Notes
-        Use this section to document key points, decisions, and action items 
-        during or after the meeting.
+        ## 📌 Meeting Notes
+        Use this section to capture important decisions, action items, and responsibilities.
 
   - type: textarea
     id: meetingNotes
     attributes:
-      label: "Notes"
-      description: "Key points from the meeting (outcomes, action items, responsibilities, etc.)"
-      placeholder: "Document the most important points and next steps here."
+      label: "📖 Notes & Outcomes"
+      description: "Document the meeting's key points, decisions, and action items."
+      placeholder: "Example: \n- **Key Decisions**: \n  - Decision 1\n  - Decision 2\n- **Action Items**: \n  - [ ] Task 1 - Assigned to @user\n  - [ ] Task 2 - Assigned to @user"
+      value: "- **Key Decisions**: \n- **Action Items**: "
+
+  - type: checkboxes
+    id: followup
+    attributes:
+      label: "✅ Follow-up Actions"
+      description: "Mark items as completed after the meeting."
+      options:
+        - label: "Meeting notes reviewed"
+        - label: "Action items assigned"
+        - label: "Next meeting scheduled"
