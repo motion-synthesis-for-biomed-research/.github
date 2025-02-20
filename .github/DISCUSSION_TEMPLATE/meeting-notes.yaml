@@ -1,11 +1,16 @@
 title: "[Meeting] <Topic>"
 labels: ["meeting"]
 body:
-  - type: markdown
+  - type: textarea
+    id: pre-meeting-checklist
     attributes:
+      label: "❓ Pre-Meeting Checklist"
+      description: "Checklist must be complete before the meeting:"
+      placeholder: |
+        - [ ] Last discussion is closed
+        - [ ] Timeline check
+        - [ ] Next meeting scheduled
       value: |
-        # :interrobang: Pre-Meeting Checklist 
-        Checklist must be complete before the meeting:
         - [ ] Last discussion is closed
         - [ ] Timeline check
         - [ ] Next meeting scheduled
