@@ -4,6 +4,15 @@ body:
   - type: markdown
     attributes:
       value: |
+        # :interrobang: Pre-Meeting Checklist 
+        Checklist must be complete before the meeting:
+        - [ ] Last discussion is closed
+        - [ ] Timeline check
+        - [ ] Next meeting scheduled
+        
+  - type: markdown
+    attributes:
+      value: |
         # 📝 Pre-Meeting Information
         Fill in this section before the meeting with relevant details such as date, time, location, and participants.
 
@@ -31,7 +40,10 @@ body:
         - @username2
         - @username3
       value: |
-        - 
+        - Aaron Brülisauer @nod0n
+        - Tobias Buess @buesst1
+        - Moritz Kirschmann
+        - Salomon Billetter
 
   - type: markdown
     attributes:
@@ -51,7 +63,9 @@ body:
         2. Topic 2
         3. Topic 3
       value: |
-        1. 
+        1. Key decisions taken since the last meeting
+        2. Problems / Blockers / Questions
+        3. Status update
 
   - type: markdown
     attributes:
